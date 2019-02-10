@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+<link rel="stylesheet" href="css//bootstrap.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+<div >
+<ul class="nav navbar-nav navbar-right"   >
+
+  <li><a class="smooth-scroll" href="index1.html">Home</a></li>
+  <li><a class="smooth-scroll" href="about.html">About</a></li>
+  <li><a class="smooth-scroll" href="contact.html">Contact</a></li>
+  <li><a class="smooth-scroll" href="feedback.html">Feedback</a></li>
+  </ul>
+  </div>
+<body background="images/space.jpg">
+
+<form  method="POST" action="new.php">
+<div class="container">
+ <div class="page-header">
+  <h1 class="jumbotron">Student Information System</h1>
+
+	<div class="form-group">
+		<label for="First Name">First Name</label>
+		<input type="text" name="FirstName" required title="Enter Your First Name" placeholder="First Name" class="form-control"></td>
+	</div>
+	<div class="form-group">
+		<label for="Last Name" name="Last Name">Last Name</label>
+		<input type="text" name="LastName"placeholder="Last Name" required title="Enter Your Last Name" class="form-control">
+		</div>
+		<div class="form-group">
+		<label for="SESSION">SESSION</label>
+<select name="SESSION" class="form-control"Required title="Enter Your Current Session">
+  <option>Select Session</option>
+<option value="2013-14"> 2013-14</option>
+<option value="2014-15" >2014-15</option>
+<option value="2016-17" >2016-17</option>
+<option value="2017-18" >2017-18</option>
+<option value="2018-19" >2018-19</option>
+</select>
+	</div>
+	<div class="form-group">
+	<label for="Roll No">Roll No</label>
+		<input type="text" name="RollNo" placeholder="Roll Number" required title="Enter Your Roll Number" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="BRANCH">BRANCH</label>
+<select name="BRANCH" class="form-control"required title="Enter Your Batch">
+<option >Select Branch</option>
+<option value="CSE">CSE</option>
+<option value="IT">IT</option>
+<option value="EN">EN</option>
+<option value="MECHNICAL">MECHNICAL</option>
+<option value="EEE">EEE</option>
+</select>
+</div>
+<div>
+<div class="form-group">
+		<label for="YEAR">YEAR</label>
+<select name="Year" class="form-control" required title="Enter Your Qualification Year">
+<option >Select Year</option>
+<option value="FIRST">FIRST</option>
+<option value="SECOND">SECOND</option>
+<option value="THIRD">THIRD </option>
+<option value="FOURTH">FOURTH</option>
+</select>
+</div>
+<div class="form-group">
+<label for="SEMESTER">SEMESTER</label>
+<select name="SEMESTER" class="form-control" required title="Enter Your Current Semester">
+<option >Select Semester</option>
+<option value="FIRST">FIRST</option>
+<option value="SECOND">SECOND</option>
+<option value="THIRD">THIRD</option>
+<option value="FOURTH">FOURTH</option>
+<option value="FIFTH">FIFTH</option>
+<option value="SIX">SIX</option>
+<option value="SEVENTH">SEVENTH</option>
+<option value="EIGHT">EIGHT</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Mobile">Mobile</label>
+<input type="text" name="Mobile" required title="Enter Your Mobile Number"class="form-control" placeholder="Mobile Number">
+</div>
+<div class="form-group">
+<label for="ResidentType">ResidentType</label>
+<select name="ResidentType" class="form-control"required title="Enter Your Resident Type">
+<option value="Hosteller">Hosteller</option>
+<option value="Day Scholar">Day Scholar</option>
+</select>
+</div>
+<div class="form-group">
+<label for="HospitalNo">HospitalNo</label>
+<input type="text" name="HospitalNo" placeholder="Hospital ID" class="form-control" required title="Enter your hospital id">
+</div>
+		<div class="form-group">
+		<label for="ADDRESS">ADDRESS</label>
+      <textarea input type="text" name="ADDRESS"class="form-control" placeholder="Address" required title="Enter Your Address" row="3"></textarea
+	  </div>
+<br>
+		<div class="form-group">
+	<input type="submit" style="background-color:green; color:white;" name="submit" value="Enter" class="form-control" >
+	</br>
+	</div>
+</form>
+</body>
+</html>
